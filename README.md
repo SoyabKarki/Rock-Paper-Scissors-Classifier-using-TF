@@ -32,10 +32,6 @@ To address overfitting, a basic Convolutional Neural Network (CNN) architecture 
 
 To improve performance, hyperparameter tuning is conducted using Keras Tuner. 10 different models with varying hyperparameters are trained, and the best model achieves an accuracy of 77%.
 
-## Hyperparameter Tuning
-
-Keras Tuner is used to search for the best hyperparameters for the CNN model, resulting in significant improvement in accuracy compared to the simple CNN architecture.
-
 ## Saving and Loading Models
 
 Demonstration of saving and loading the best performing model for future use is provided, ensuring that the trained model can be reused without retraining.
